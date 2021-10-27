@@ -1,0 +1,5 @@
+<l-button size="long" bind:lintap="onGetToken" l-class="btn">获取token</l-button>
+<l-button size="long" bind:lintap="onVerifyToken" l-class="btn">验证Token</l-button>
+<l-button size="long" bind:lintap="onGetLatest" type="warning"  l-class="btn">获取最新一期</l-button>
+<l-button size="long" bind:lintap="onLike" type="error"  l-class="btn">点赞</l-button>
+<l-button size="long" bind:lintap="onDisLike" >取消点赞</l-button>
